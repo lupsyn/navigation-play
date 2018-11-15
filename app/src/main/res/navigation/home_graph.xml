@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/actionHome"
-        android:name="nl.jovmit.navigation.Home"
+        android:name="it.enrico.navigation_play.Home"
         android:label="@string/titleHome"
         tools:layout="@layout/fragment_home">
 

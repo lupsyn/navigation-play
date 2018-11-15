@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/actionNotifications"
-        android:name="nl.jovmit.navigation.Notifications"
+        android:name="it.enrico.navigation_play.Notifications"
         android:label="@string/titleNotifications"
         tools:layout="@layout/fragment_notifications">
 
@@ -27,7 +27,7 @@
 
     <fragment
         android:id="@+id/notificationDetails"
-        android:name="nl.jovmit.navigation.NotificationDetails"
+        android:name="it.enrico.navigation_play.NotificationDetails"
         android:label="@string/notificationDetails"
         tools:layout="@layout/fragment_notification_details">
 

@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/actionDashboard"
-        android:name="nl.jovmit.navigation.Dashboard"
+        android:name="it.enrico.navigation_play.Dashboard"
         android:label="@string/titleDashboard"
         tools:layout="@layout/fragment_dashboard">
 
@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/dashboardDetails"
-        android:name="nl.jovmit.navigation.DashboardDetails"
+        android:name="it.enrico.navigation_play.DashboardDetails"
         android:label="@string/dashboardDetails"
         tools:layout="@layout/fragment_dashboard_details">
 

@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/actionHome"
-        android:name="nl.jovmit.navigation.Home"
+        android:name="it.enrico.navigation_play.Home"
         android:label="@string/titleHome"
         tools:layout="@layout/fragment_home">
 
@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/actionDashboard"
-        android:name="nl.jovmit.navigation.Dashboard"
+        android:name="it.enrico.navigation_play.Dashboard"
         android:label="@string/titleDashboard"
         tools:layout="@layout/fragment_dashboard">
 
@@ -30,7 +30,7 @@
 
     <fragment
         android:id="@+id/actionNotifications"
-        android:name="nl.jovmit.navigation.Notifications"
+        android:name="it.enrico.navigation_play.Notifications"
         android:label="@string/titleNotifications"
         tools:layout="@layout/fragment_notifications">
 
@@ -51,7 +51,7 @@
 
     <fragment
         android:id="@+id/notificationDetails"
-        android:name="nl.jovmit.navigation.NotificationDetails"
+        android:name="it.enrico.navigation_play.NotificationDetails"
         android:label="@string/notificationDetails"
         tools:layout="@layout/fragment_notification_details">
 
