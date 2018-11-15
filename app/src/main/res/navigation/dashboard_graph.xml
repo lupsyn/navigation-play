@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/actionDashboard">
+
+    <fragment
+        android:id="@+id/actionDashboard"
+        android:name="nl.jovmit.navigation.Dashboard"
+        android:label="@string/titleDashboard"
+        tools:layout="@layout/fragment_dashboard">
+
+        <argument
+            android:name="title"
+            android:defaultValue="@string/titleDashboard" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/dashboardDetails"
+        android:name="nl.jovmit.navigation.DashboardDetails"
+        android:label="@string/dashboardDetails"
+        tools:layout="@layout/fragment_dashboard_details">
+
+        <argument
+            android:name="title"
+            android:defaultValue="@string/dashboardDetails" />
+    </fragment>
+</navigation>
